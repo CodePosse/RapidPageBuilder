@@ -1,14 +1,14 @@
 // RapidPageBuilder - created with Gulp Fiction
 var gulp = require("gulp");
-var concat = require("gulp-concat");
-var inject = require("gulp-inject");
-var plumber = require("gulp-plumber");
-var cheerio = require("gulp-cheerio");
-var htmlclean = require("gulp-htmlclean");
-var uncss = require("gulp-uncss");
-var csso = require("gulp-csso");
-var uglifycss = require("gulp-uglifycss");
-var uglify = require('gulp-uglifyjs');
+var concat = require("gulp-concat"); //concatinates files
+var inject = require("gulp-inject"); //uses inject method to pages
+var plumber = require("gulp-plumber"); //error handler
+var cheerio = require("gulp-cheerio"); //allows you to use jquery in a task
+var htmlclean = require("gulp-htmlclean"); //minification of html
+var uncss = require("gulp-uncss"); //removes unused css
+var csso = require("gulp-csso"); //css shorthand task
+var uglifycss = require("gulp-uglifycss"); //minifies css
+var uglify = require('gulp-uglifyjs'); //minifies js
 
 gulp.task("default", function () {
   gulp.start('html-build', 'js-build', 'css-build', 'css-clean', 'html-clean', 'js-clean');

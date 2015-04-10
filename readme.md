@@ -22,7 +22,7 @@ This is the `template.html` placeholder for the injection of that above snippet:
   <!-- endinject -->
   ```
 
-  2. `html-clean` goes in the compiled html files that were output by html-build and strips whitespace and minifies it. It will be smaller but unreadable to humans.
+  2. `html-clean` goes in the compiled html files that were output by `html-build` adds blank alt tags where there were none, strips whitespace and minifies it. It will be smaller but unreadable to humans.
   3. `css-build` grabs all the css in `./src/css/` combines (concatinate) it to one file called `global.css` and dumps it in `./dist/css/`
   4. `css-clean` lookes in the compiled css, makes it shorthand by way of `gulp-csso`, then uses `gulp-uncss` to look for unused CSS in all your html docs (does not work for elements created in the DOM by JS), finally it minifies it.
   5. `js-build` grabs all the javascript in `./src/js/` combines (concatinate) it to one file called `global.js` and dumps it in `./dist/js/`.
