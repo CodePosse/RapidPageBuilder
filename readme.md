@@ -34,8 +34,8 @@ This is the `template.html` placeholder for the injection of that above snippet:
   You need to go to the root of the project and in the command line you'll use npm to install these packages, assuming you don't have gulp already, here it is installedd globally:
 ```
 npm install gulp -g
-npm install gulp-if gulp-cheerio
+npm install gulp-if gulp-cheerio gulp-sass gulp-rename gulp-util vinyl-source-stream vinyl-buffer
 npm install --save gulp-concat gulp-uglifycss gulp-uglifyjs
-npm install --save-dev gulp-plumber gulp-inject gulp-uglify gulp-uncss gulp-csso gulp-htmlclean
+npm install --save-dev gulp-plumber gulp-inject gulp-uglify gulp-uncss gulp-csso gulp-htmlclean gulp-dev gulp-filter gulp-useref gulp-rev-replace gulp-browserify
 npm update
 ```
