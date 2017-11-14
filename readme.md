@@ -1,10 +1,10 @@
 # Tim's Rapid Page Builder
 
-##Purpose
+## Purpose
 
 To allow a simple edit of HTML fragments to be injected into a template that dictates what elements are used and what order they are placed in.
 
-##How It Works
+## How It Works
 
 After you have made sure you installed all the gulp packages, you can type the name of a task like `gulp html-build` or just `gulp` to build/optimize the whole thing.
 
@@ -29,7 +29,7 @@ This is the `template.html` placeholder for the injection of that above snippet:
   6. `js-clean` lookes in the compiled js, then minifies it.
   7. `gulp` by itself runs the builds, followed by the cleans.
 
-##Required Gulp packages
+## Required Gulp packages
 
   You need to go to the root of the project and in the command line you'll use npm to install these packages, assuming you don't have gulp already, here it is installedd globally:
 ```
