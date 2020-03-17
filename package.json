@@ -40,6 +40,8 @@
   },
   "dependencies": {
     "gulp-concat": "^2.5.2",
-    "gulp-uglifyjs": "^0.6.1"
+    "gulp-uglifyjs": "^0.6.1",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0"
   }
 }
