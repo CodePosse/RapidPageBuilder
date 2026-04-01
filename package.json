@@ -16,7 +16,7 @@
     ],
     "repository": "https://github.com/CodePosse/RapidPageBuilder.git",
     "devDependencies": {
-        "grunt": "^0.3.17",
+        "grunt": "^1.6.1",
         "grunt-notify": "^0.4.1",
         "gulp": "^5.0.1",
         "gulp-add-src": "^1.0.0",
